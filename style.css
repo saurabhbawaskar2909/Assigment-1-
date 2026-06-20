@@ -1,0 +1,113 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background:#111;
+}
+
+.card{
+  width:1000px;
+  height:550px;
+  background:white;
+  border-radius:20px;
+  overflow:hidden;
+
+  display:flex;
+
+  position:relative;
+}
+
+/* LEFT SECTION */
+
+.left{
+  width:50%;
+  background:#ffd400;
+  padding:50px;
+
+  position:relative;
+}
+
+.logo{
+  width:120px;
+  margin-bottom:40px;
+}
+
+.small-title{
+  letter-spacing:4px;
+  font-size:12px;
+  margin-bottom:20px;
+}
+
+h1{
+  font-size:80px;
+  font-weight:bold;
+  margin-bottom:20px;
+}
+
+.desc{
+  width:300px;
+  line-height:1.7;
+  color:#333;
+}
+
+.count{
+  margin-top:40px;
+  font-weight:bold;
+}
+
+/* RIGHT SECTION */
+
+.right{
+  width:50%;
+  background:#f6ebc8;
+  position:relative;
+}
+
+.menu{
+  position:absolute;
+  top:40px;
+  right:40px;
+  font-size:40px;
+  cursor:pointer;
+}
+
+.dots{
+  position:absolute;
+  right:30px;
+  top:50%;
+  transform:translateY(-50%);
+
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+}
+
+.dots span{
+  width:10px;
+  height:10px;
+  background:#f1c40f;
+  border-radius:50%;
+}
+
+.dots .active{
+  background:black;
+}
+
+/* PIKACHU IMAGE */
+
+.pikachu{
+  width:420px;
+
+  position:absolute;
+  top:90px;
+  left:70%;
+  transform:translateX(-40%);
+}
